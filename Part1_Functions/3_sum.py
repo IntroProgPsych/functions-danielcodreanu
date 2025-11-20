@@ -3,3 +3,12 @@
 # Ask the user for two numbers (as input), convert them to integers, call the function, and print the result.
     
 # Write your code here:
+
+a = int(input())
+b = int(input())
+
+
+def sum(a, b):
+    return a + b 
+
+print(sum(a, b))

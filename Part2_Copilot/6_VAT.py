@@ -2,3 +2,10 @@
 # Ask the user for a price and print the result.
 
 # Write your code here:
+
+price = int(input())
+
+def apply_vat(price):
+    return (price * 19 / 100)
+
+print(apply_vat(price))
